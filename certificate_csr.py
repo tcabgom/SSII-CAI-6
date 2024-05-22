@@ -5,6 +5,8 @@ from cryptography.hazmat.primitives import hashes
 from cryptography import x509
 from cryptography.x509.oid import NameOID
 
+# CONSULTA 1.2
+
 # Generar una clave privada RSA
 private_key = rsa.generate_private_key(
     public_exponent=65537,
